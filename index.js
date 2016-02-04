@@ -11,8 +11,8 @@ app.get('/', function (req, res) {
   }
 });
 
-app.listen(3000, function () {
-  console.log('App listening on port 3000!');
+app.listen(8080, function () {
+  console.log('App listening on port 8080!');
   setTimeout(function () {
     working = false;
     console.log('App is not working now!');
