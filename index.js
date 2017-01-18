@@ -2,7 +2,7 @@
 
 var express = require('express');
 var app = express();
-var text = "App version 1";
+var text = "App version 2";
 
 app.get('/', function (req, res) {
     res.send(text);
