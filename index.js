@@ -2,13 +2,12 @@
 
 var express = require('express');
 var app = express();
+var text = "App version 1";
 
 app.get('/', function (req, res) {
-  if (working) {
-    res.send('Hello World!');
-  }
+    res.send(text);
 });
 
 app.listen(8080, function () {
-  console.log('App version 1');
+  console.log(text);
 });
